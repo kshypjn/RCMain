@@ -1,0 +1,229 @@
+body{
+    background: #fff;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Goudy+Bookletter+1911&family=Poppins:wght@500&display=swap');
+/* CSS for Bento Box */
+/* .bento{
+    background: #fff;
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+.bento h2{
+    font-family: 'Poppins',sans-serif;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 2em;
+    color: #000;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr;
+    grid-template-rows: 100px 1fr;
+
+}
+
+.c1{
+    margin-left: 5%;
+    grid-column: 1;
+    grid-row: 1/3;
+ 
+}
+
+.c1 img{
+    border-radius: 4px ;
+    width: 100%;
+    height: auto;
+}
+
+.content_ass{
+    margin: auto auto auto 15%;
+    display: flex;
+    flex-direction:column ;
+    gap: 2rem;
+}
+
+.content_ass div{
+    border: 2px solid rgb(113, 113, 113);
+    background-color: #333;
+    border-radius: 4px;
+    width: 200%;
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.c2 p, .c3 li{
+    font-size: 1.2em;
+    line-height: 1.4em;
+   
+    color: white;
+}
+.c2 p{
+    margin-left: 20px;
+}
+.c3 h2{
+    text-decoration: underline;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: left;
+    margin-left: 4%;
+    margin-bottom: 0;
+    color: white;
+}
+
+.c3 ul li{
+    margin: 0;
+}
+
+#text-div1 , #text-div2{
+    border: 2px solid rgb(144, 88, 88);
+    background-color: rgb(73, 29, 29);
+    border-radius: 4px;
+} */
+
+
+/* Add or adjust styles for your Products page */
+
+/* .horizontal-section {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+    border: 2px solid green;
+}
+
+.image-container {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.text-container {
+    flex: 2;
+}
+
+.text-block {
+    margin-bottom: 20px;
+}
+
+.text-block h2 {
+    color: #333;
+}
+
+.text-block p {
+    color: #555;
+} */
+#ac
+product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.product {
+    margin: 2%;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    
+    margin-bottom: 24px;
+}
+
+.image-container {
+    height: 500px;
+    flex: 1;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 0 0 8px;
+    object-fit: cover;
+
+}
+
+.product-details {
+    flex: 1;
+    padding: 24px;
+}
+
+.product-details h2 {
+    color: #333;
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.product-description {
+    color: #555;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.product-uses {
+    margin-top: 20px;
+}
+
+.product-uses h3 {
+    color: #333;
+    font-size: 1.3rem;
+}
+
+.uses {
+    list-style:none;
+    padding: 0;
+    margin: 0;
+}
+
+.uses li {
+    background-color: #f8f8f8;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 4px;
+    color: #333;
+    font-size: 16px;
+}
+
+/* Hover effect for a subtle interaction */
+.uses li:hover {
+    background-color: #e0e0e0;
+    transition: background-color 0.3s ease;
+}
+
+@media only screen and (max-width: 768px) {
+    .product {
+        max-width: 100vw;
+        margin: 0;
+        margin-bottom: 20px; 
+        flex-direction: column;/* Add spacing between product sections on mobile */
+    }
+
+    .image-container {
+        height: 200px; /* Adjusted height for mobile */
+    }
+
+    .product-details {
+        padding: 16px; /* Adjusted padding for mobile */
+    }
+
+    .product-details h2 {
+        font-size: 1.5em; /* Adjusted font size for mobile */
+    }
+
+    .product-uses h3 {
+        font-size: 1.2rem; /* Adjusted font size for mobile */
+    }
+
+    .uses li {
+        padding: 8px; /* Adjusted padding for mobile */
+    }
+}

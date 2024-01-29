@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="gallery.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/2aa358f165.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+<body>
+    <div class="rc-topbar">
+        <nav class="rc-nav">
+          <div class="nav-logo">
+            <a href="/"><img src="assets/rc-logo.png" alt="Logo" style="height: 50px" /></a>
+          </div>
+          <div class="nav-options">
+            <ul class="nav-options-list" id="sideMenu">
+              <i class="fas fa-times" onclick="closeMenu()"></i>
+              <li><a href="/">Home </a></li>
+              <li><a href="/about.html">About </a></li>
+              <li><a href="/product.html">Products </a></li>
+              <li><a href="/gallery.html" id="active" >Gallery</a></li>
+              <li><a href="/contact.html">Contact </a></li>   
+          </ul>
+      </div>
+      <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+      </div>
+      <!-- <div class="gallery">
+        <img src="assets/work/work1.jpeg" alt="Image 1">
+        <img src="assets/work/work2.jpeg" alt="Image 2">
+        <img src="assets/work/work3.jpeg" alt="Image 3">
+        <img src="assets/work/work4.jpeg" alt="Image 4">
+        <img src="assets/work/work5.jpeg" alt="Image 5">
+        <img src="assets/work/work6.jpeg" alt="Image 6">
+        <img src="assets/work/work7.jpeg" alt="Image 7">
+        <img src="assets/work/work8.jpeg" alt="Image 8">
+        <img src="assets/work/work9.jpeg" alt="Image 9">
+        <img src="assets/work/work10.jpeg" alt="Image 10">
+        <img src="assets/work/work11.jpeg" alt="Image 11">
+        <img src="assets/work/work12.jpeg" alt="Image 12">
+        <img src="assets/work/work13.jpeg" alt="Image 13">
+      </div> -->
+      <div class="gallery" id="gallery">
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work1.jpeg" alt="1"></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work2.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work3.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work4.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work5.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work6.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work7.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work8.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work9.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work10.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work11.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work13.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work12.jpeg" alt=""></div>
+        </div>
+        <div class="gallery-item">
+            <div class="content"><img src="assets/work/work14.jpeg" alt=""></div>
+        </div>
+        
+    </div>
+
+    <footer>
+        <div class="contact-foot">
+          <h2>Contact Us</h2>
+          <p>
+            Address: 198, Sambandam Rd E, R.S. Puram, Coimbatore, Tamil Nadu
+            641002
+          </p>
+          <p>Email: rightchoice.cbe@gmail.com</p>
+          <p>Phone: +91 9994904400</p>
+        </div>
+        <div class="social-media">
+          <h2>Follow Us</h2>
+          <div class="sm">
+            <a
+              href="https://wa.me/+919994904400"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="assets/whatsapp-logo.png" alt="Twitter" />
+            </a>
+            <a
+              href="https://www.instagram.com/rightchoicecbe"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="assets/instagram-logo.png" alt="Instagram" />
+            </a>
+            <a
+              href="mailto:rightchoice.cbe@gmail.com"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img src="assets/mail-logo.png" alt="Mail" />
+            </a>
+          </div>
+        </div>
+        <div class="map">
+          <h2>Our Location</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.3996783331427!2d76.9525709!3d11.0086097!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8590fcbc209eb%3A0xfb8a881c1876e128!2sRight%20Choice!5e0!3m2!1sen!2sin!4v1704098673807!5m2!1sen!2sin"
+            width="600"
+            height="450"
+            title="maps"
+          ></iframe>
+        </div>
+      </footer>
+      <p class="credits">
+        made with 💖 by
+        <a href="https://www.linkedin.com/in/kashyapjn/">kashyap</a>
+      </p>
+</body>
+<script>
+    var gallery = document.querySelector('#gallery');
+var getVal = function (elem, style) { return parseInt(window.getComputedStyle(elem).getPropertyValue(style)); };
+var getHeight = function (item) { return item.querySelector('.content').getBoundingClientRect().height; };
+var resizeAll = function () {
+    var altura = getVal(gallery, 'grid-auto-rows');
+    var gap = getVal(gallery, 'grid-row-gap');
+    gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+        var el = item;
+        el.style.gridRowEnd = "span " + Math.ceil((getHeight(item) + gap) / (altura + gap));
+    });
+};
+gallery.querySelectorAll('img').forEach(function (item) {
+    item.classList.add('byebye');
+    if (item.complete) {
+        console.log(item.src);
+    }
+    else {
+        item.addEventListener('load', function () {
+            var altura = getVal(gallery, 'grid-auto-rows');
+            var gap = getVal(gallery, 'grid-row-gap');
+            var gitem = item.parentElement.parentElement;
+            gitem.style.gridRowEnd = "span " + Math.ceil((getHeight(gitem) + gap) / (altura + gap));
+            item.classList.remove('byebye');
+        });
+    }
+});
+window.addEventListener('resize', resizeAll);
+gallery.querySelectorAll('.gallery-item').forEach(function (item) {
+    item.addEventListener('click', function () {        
+        item.classList.toggle('full');        
+    });
+});
+
+</script>
+<script>
+  var copy = document.querySelector(".logo-slider").cloneNode(true);
+  document.querySelector(".slider").appendChild(copy);
+</script>
+<script>
+  var sideMenu = document.getElementById("sideMenu");
+  function openMenu() {
+    sideMenu.style.right = "0px";
+  }
+  function closeMenu() {
+    sideMenu.style.right = "-200px";
+  }
+</script>
+</html>

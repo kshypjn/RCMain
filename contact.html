@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Right Choice</title>
+    <link rel="icon" href="assets/favicon.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script
+    src="https://kit.fontawesome.com/2aa358f165.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+<body>
+    <div class="rc-topbar">
+        <nav class="rc-nav">
+          <div class="nav-logo">
+            <a href="/"><img src="assets/rc-logo.png" alt="Logo" style="height: 50px" /></a>
+          </div>
+          <div class="nav-options">
+            <ul class="nav-options-list" id="sideMenu">
+              <i class="fas fa-times" onclick="closeMenu()"></i>
+              <li><a href="/">Home </a></li>
+              <li><a href="/about.html">About </a></li>
+              <li><a href="/product.html">Products </a></li>
+              <li><a href="/gallery.html">Gallery</a></li>
+              <li><a href="/contact.html" id="active">Contact </a></li>   
+          </ul>
+      </div>
+      <i class="fas fa-bars" onclick="openMenu()"></i>
+      </nav>
+      </div>
+
+      <!-- contact section -->
+      <div class="main">
+      <section class="contact-us">
+            <div class="text">
+                <h1>Get In Touch</h1>
+                    <div class="address">
+                        <img src="assets/location-dot-solid.svg" alt="Location Dot" />
+                        <p><a href="https://www.google.com/maps?q=Right+Choice,+198,+Sambandam+Rd+E,+R.S.+Puram,+Coimbatore,+Tamil+Nadu+641002&ftid=0x3ba8590fcbc209eb:0xfb8a881c1876e128&hl=en-IN&gl=in&entry=gps&lucs=,94200733,47071704,47069508,47084304&g_ep=CAISDDYuOTYuMS4zMDU4MBgAINeCAyokLDk0MjAwNzMzLDQ3MDcxNzA0LDQ3MDY5NTA4LDQ3MDg0MzA0QgJJTg%3D%3D&g_st=iw" target="_blank"><p>198,Sambandam Rd, R.S. Puram, Coimbatore</p></a></p>
+                    </div>
+                    <div class="phone">
+                        <img src="assets/phone-solid.svg" alt="Phone" />
+                        <p><a href="https://wa.me/+919994904400" target="_blank">+91 9994904400</a></p>
+                    </div>
+                    <div class="email">
+                        <img src="assets/envelope-solid.svg" alt="Envelope" />
+                        <p><a href="mailto:rightchoice.cbe@gmail.com">rightchoice.cbe@gmail.com</a></p>
+                    </div>
+                </div>
+      </section>
+      <section class="frame-contact">
+        <h1>Reach Out to Us!</h1>
+        <form class="contact-form" action="https://api.web3forms.com/submit" method="POST"">
+            <input type="hidden" name="access_key" value="711a1ec9-a8e0-424d-9ce9-64fee2024482">
+            <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit" class="subBtn">Submit</button>
+        </form>
+        </section>
+    </div>
+      <p class="credits">made with 💖 by <a href="https://www.linkedin.com/in/kashyapjn/" target="_blank">kashyap</a></p>
+    </div>
+    <script>
+        var sideMenu = document.getElementById("sideMenu");
+        
+        function openMenu() {
+          sideMenu.style.right = "0";
+        }
+        function closeMenu() {
+          sideMenu.style.right = "-200px";
+        }
+      </script>
+</body>
+</html>

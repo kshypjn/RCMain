@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=GFS+Didot&family=Goudy+Bookletter+1911&display=swap');
+
+body{
+    background: #fff;
+}
+html{
+    scroll-behavior: smooth;
+  }
+ 
+.about-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 12px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+}
+.about-main img{
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    width: 100%;
+}
+.about-head {
+    font-size: 4em; 
+    font-family: 'GFS Didot', serif;
+    
+}
+
+.about-sect{
+    display: flex;
+    flex-direction: column;
+    margin: 3% auto;
+    font-family: 'GFS Didot', serif;
+    gap: 9%;
+    
+}
+
+.about-sect h2{
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    margin: 2% auto;
+    font-size: 2.75rem;
+
+
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin: auto 5%;
+    padding: 0 0;
+    align-items: center;
+}
+
+.about p{
+    width: 50%;
+    text-align: justify;
+    font-family: 'Poppins', serif;
+}
+
+.about img{
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 10px;
+
+}
+
+@media screen and (max-width: 768px){
+    .about-main{
+        height: 170px;
+        
+    }
+    .about-sect h2{
+        font-size: 2rem;
+        margin-bottom: 4%;
+    }
+    .about{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto 12px;
+    }
+    .about img{
+        width: 80%;
+        height: auto;
+    }
+    .about p{
+        width: 80%;
+        text-align: center;
+    }
+    .about-main img{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
+}
+
+
+.team{
+    margin: 5%;
+}
+.team h2{
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    font-size: 2.75rem;
+    margin: 2% 0 0 2%;
+}
+
+.mainCard{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top2{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.card-title{
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 1.75rem;
+    margin: 2px 0 0.5rem 0;
+    padding-top: 12px;
+}
+.card-text{
+    text-align: center;
+    font-family: 'GFS Didot', serif;
+    margin: 2px 12px 12px 12px;
+}
+
+.card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    color: #212529;
+    word-wrap: break-word;
+    background-color:#fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+    border-radius: 0.375rem;
+    width: 18rem;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 20rem;
+    border-radius:calc(.375rem - 1px) calc(.375rem - 1px) 0 0;
+    
+}
+  
+.card-body {
+    flex: 1 1 auto;
+    padding: 1 rem 1rem;
+    max-height: 120px;
+}
+
+#workforce{
+    width: 48%;
+    height: 20%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .team h2{
+        font-size: 2rem;
+    }
+    .mainCard{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+    .top2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+
+    }
+    #workforce{
+        margin-top: 2px !important;
+        width: 100% !important;
+        height: auto !important;
+    }
+    .card{
+        width: 15rem !important;
+        margin: 20px 0 20px 0 !important;
+    }
+    .card-img-top{
+        align-self: center;
+        width: 100%;
+        height: 80%;
+    }
+    .card-title{
+        font-size:1.5rem;
+    }
+    .card-text{
+        font-size: 1rem;
+    }
+    
+}
+
+
